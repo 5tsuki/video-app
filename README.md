@@ -18,3 +18,5 @@ Mostly because I want to watch videos in [Watch2gether](https://w2g.tv/) with a 
    1. `Forwarding https://<id>.<region>.ngrok.io -> http://localhost:3000`
 8. Navigate to `https://<id>.<region>.ngrok.io/video/<video_filename>.mp4`
 9. If the video is showing, you can use it as a URL for W2G, if not idk.
+
+Or simply run `npm run serve` with the provided ngrok binary.
