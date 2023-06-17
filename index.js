@@ -9,7 +9,7 @@ const app = express();
 // place a video in the video folder and access it via http://localhost:3000/<video_filename>.mp4
 // ex. http://localhost:3000/baku_btch.mp4
 
-app.use(["/video"], express.static('video'), serveIndex('video', { 'icons': true }))
+app.use(["/"], express.static('video'), serveIndex('video', { 'icons': true }))
 
 // app.get('*', (req, res) => {
 //   const { path } = req;
